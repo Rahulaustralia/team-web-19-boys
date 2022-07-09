@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=0, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body
+        {
+            background-color: blueviolet;
+        }
+        #container
+        {
+            width: 32%;
+            height: 500px;
+            margin: auto;;
+            text-align: center;
+            margin-top: 50px;
+            background-color: white;
+            border-radius: 5%;
+            padding-top: 50px;
+        }
+        h1
+        {
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            margin-top: 50px;
+            font-size: 50px;
+        }
+        form>input
+        {
+            width: 80%;
+            height: 30px;
+            margin-top: 30px;
+            border-width: 0px;
+        }
+        button
+        {
+            margin-top: 20px;
+            text-align: center;
+            width: 80%;
+            height: 50px;
+            background-color: rgb(7, 75, 165);
+            border-width: 0px;
+            color: aliceblue;
+            font-size: 20px;
+            margin-top: 20px;
+        }
+        #container>div
+        {
+            /* display: flex; */
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            justify-content: center;
+        }
+        #container>div:nth-child(1)
+        {
+            margin-top: 30px;
+            padding-bottom: -20px;
+
+        }
+        #container>div:nth-child(2)     
+        {
+            margin-top: -20px;
+            padding-top: -20px;
+
+        }
+       
+       
+        a
+        {
+            color: rgb(19, 142, 224);
+            text-decoration: none;
+        }
+
+
+    </style>
+</head>
+<body>
+    <div id="container">
+        <h1>Login</h1>
+        <form >
+            <input id="em" type="email" placeholder="Email">
+            <br>
+            <input type="text" required placeholder="Password">
+            <br>
+        </form>
+            <button>Login</button>
+            <div>
+                <p>Forgot <a href="">Password?</a></p>
+                
+            </div>
+            <div>
+                <p>Don't have an account? <a href="">Sign up</a></p>
+                
+            </div>
+       
+    </div>
+</body>
+</html>
