@@ -1,53 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Nav Bar</title>
 
     <style>
-      #container {
-        width: 90%;
-        height: 100px;
-        margin: auto;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        background-color: grey;
-        border-radius: 20px;
-        margin-top: 20px;
-      }
-
-      #container > div {
-        display: flex;
-        height: 100px;
-        width: 20%;
-        text-align: center;
-        justify-content: space-around;
-        align-items: center;
-        color: white;
-      }
-
-      #container > div:nth-child(2) {
-        display: flex;
-        width: 50%;
-      }
+        #container {
+            width: 90%;
+            height: 100px;
+            margin: auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: grey;
+            border-radius: 20px;
+            margin-top: 20px;
+        }
+        
+        #container>div {
+            display: flex;
+            height: 100px;
+            width: 20%;
+            text-align: center;
+            justify-content: space-around;
+            align-items: center;
+            color: white;
+        }
+        
+        #container>div:nth-child(2) {
+            display: flex;
+            width: 50%;
+        }
     </style>
-  </head>
+</head>
 
-  <body>
+<body>
     <div id="container">
-      <div>
-        <h4>Reebok</h4>
-      </div>
+        <div>
+            <h4>Reebok</h4>
+        </div>
 
-      <div>
-        <h4>Men</h4>
-        <h4>Women</h4>
-        <h4>Login</h4>
-        <h4>Signup</h4>
-      </div>
+        <div>
+            <h4> <a href="mens.html"> Men </a></h4>
+            <h4> <a href="navbar.html"> Navbar </a> </h4>
+            <h4><a href="login.html"> Login </a></h4>
+            <h4><a href="signup.html"> Signup </a></h4>
+        </div>
     </div>
-  </body>
+</body>
+
 </html>
